@@ -39,7 +39,7 @@ To execute this application with the chosen transport, run the configuration com
 
 ```bash
 # Configure step with ping_pong app and serial-usb transport
-ros2 run micro_ros_setup configure_firmware.sh drive_base
+ros2 run micro_ros_setup configure_firmware.sh pingpong --transport serial
 ```
 
 and with no `[OPTIONS]` parameter.
